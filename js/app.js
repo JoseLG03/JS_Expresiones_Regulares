@@ -32,3 +32,6 @@ var expresion5 = /[^01] /;
 // ^Negación 
 
 console.log(expresion4.test('0110101010100'));
+
+// + un patrón se va a repetir 1 o mas veces
+// * puede repetirse 1 o mas veces pero tambien que puede no estar
