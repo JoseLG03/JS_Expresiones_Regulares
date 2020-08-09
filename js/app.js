@@ -6,8 +6,9 @@ var expresion2 = /abc/;
 var parrafo = /abc \/n dfe/;
 
 var expresion3 = /[0-9a-zA-Z]/;
+// [] = Al menos tenemos 1 coincidencia.
 
-console.log(expresion3.test('Sucedio en el verano de 1998.'));
+//console.log(expresion3.test('Sucedio en el verano de 1998.'));
 
 /*Grupo de caracteres especiales
 
@@ -20,3 +21,14 @@ console.log(expresion3.test('Sucedio en el verano de 1998.'));
 .  Cualquier caracter excepto nuevas lineas
 
 */
+
+//23-02-2020
+
+var expresion4 = /\d\d-\d\d-\d\d\d\d/
+
+//console.log(expresion4.test('23-02-2020'));
+
+var expresion5 = /[^01] /;
+// ^Negación 
+
+console.log(expresion4.test('0110101010100'));
