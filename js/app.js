@@ -31,7 +31,16 @@ var expresion4 = /\d\d-\d\d-\d\d\d\d/
 var expresion5 = /[^01] /;
 // ^Negación 
 
-console.log(expresion4.test('0110101010100'));
+//console.log(expresion4.test('0110101010100'));
 
 // + un patrón se va a repetir 1 o mas veces
 // * puede repetirse 1 o mas veces pero tambien que puede no estar
+// ? puede que este o no este
+
+var expresion6 = /Hola mun?do/;
+
+//console.log(expresion6.test('Hola mundo'));
+
+var expresion7 = /\d{1,2}-\w{1,3}-\d{4} \d{1,2}:\d{1,2}/;
+
+console.log(expresion7.test('27-jul-2020 11:45'));
