@@ -72,4 +72,8 @@ var expresion12 = /pollo|res|pescado/;
 
 var expresion13 =/^cualquier|Javascript$/i;
 
-console.log(expresion13.test('Cualquier programa que te imagines puede hacerse con Javascript'));
+//console.log(expresion13.test('Cualquier programa que te imagines puede hacerse con Javascript'));
+
+var msj = "El cliente pidio sushi y comio sushi";
+
+console.log(msj.replace(/sushi/g,'tacos'))
