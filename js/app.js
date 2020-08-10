@@ -55,6 +55,10 @@ var expresion9 = /Woo+(hoo+)+/i;
 
 var expresion10 = /\d+/.exec('Del año 1988');
 
-console.log(expresion10);
+//console.log(expresion10);
 
-console.log("Hasta 1994".match(/\d+/));
+//console.log("Hasta 1994".match(/\d+/));
+
+var expresion11 = /\bcat\b/;
+
+console.log(expresion11.test('cat'));
