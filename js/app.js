@@ -43,4 +43,18 @@ var expresion6 = /Hola mun?do/;
 
 var expresion7 = /\d{1,2}-\w{1,3}-\d{4} \d{1,2}:\d{1,2}/;
 
-console.log(expresion7.test('27-jul-2020 11:45'));
+//console.log(expresion7.test('27-jul-2020 11:45'));
+
+var expresion8 = /Hola Mundo/i;
+
+//console.log(expresion8.test('Hola mundo'));
+
+var expresion9 = /Woo+(hoo+)+/i;
+
+//console.log(expresion9.test('woohooohoooohooooohoooohooo'));
+
+var expresion10 = /\d+/.exec('Del año 1988');
+
+console.log(expresion10);
+
+console.log("Hasta 1994".match(/\d+/));
