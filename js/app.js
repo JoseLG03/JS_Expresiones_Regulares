@@ -29,7 +29,7 @@ var expresion4 = /\d\d-\d\d-\d\d\d\d/
 //console.log(expresion4.test('23-02-2020'));
 
 var expresion5 = /[^01] /;
-// ^Negación 
+// ^Negación dentro de corchetes
 
 //console.log(expresion4.test('0110101010100'));
 
@@ -65,5 +65,11 @@ var expresion11 = /\bcat\b/;
 
 var expresion12 = /pollo|res|pescado/;
 
-console.log(expresion12.test('El cliente pidio res.'));
+//console.log(expresion12.test('El cliente pidio res.'));
 
+// ^ debe estar al principio de la expresion
+// $ debe estar al final de la expresion
+
+var expresion13 =/^cualquier|Javascript$/i;
+
+console.log(expresion13.test('Cualquier programa que te imagines puede hacerse con Javascript'));
