@@ -61,4 +61,9 @@ var expresion10 = /\d+/.exec('Del año 1988');
 
 var expresion11 = /\bcat\b/;
 
-console.log(expresion11.test('cat'));
+//console.log(expresion11.test('cat'));
+
+var expresion12 = /pollo|res|pescado/;
+
+console.log(expresion12.test('El cliente pidio res.'));
+
