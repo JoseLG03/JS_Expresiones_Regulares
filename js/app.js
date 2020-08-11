@@ -80,5 +80,5 @@ var msj = "El cliente pidio sushi y comio sushi";
 
 var msj2 ="Esta historia continuara..."
 
-console.log(msj2.search(/\W/));
+//console.log(msj2.search(/\W/));
 //solo busca la primera incidencia
